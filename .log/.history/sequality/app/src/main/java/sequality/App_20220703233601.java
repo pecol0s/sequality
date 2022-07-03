@@ -57,8 +57,8 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().f1());
-    System.out.println(new App().f2());
-    System.out.println(new App().f3());
-    System.out.println(new App().f4());
+    System.out.println(new App().FbCounter(12));
+    System.out.println(new App().FbCounter(12));
+    System.out.println(new App().FbCounter(12));
   }
 }

@@ -31,34 +31,9 @@ public class App {
     return "Fizz: " + f_str + ", Buzz: " + b_str + ", FizzBuzz: " + fb_str;
   }
 
-  public String f1() {
-    String r;
-    r = FbCounter(6);
-    return r;
-  }
-
-  public String f2() {
-    String r;
-    r = FbCounter(10);
-    return r;
-  }
-
-  public String f3() {
-    String r;
-    r = FbCounter(30);
-    return r;
-  }
-
-  public String f4() {
-    String r;
-    r = FbCounter(1);
-    return r;
-  }
+  public 
 
   public static void main(String[] args) {
-    System.out.println(new App().f1());
-    System.out.println(new App().f2());
-    System.out.println(new App().f3());
-    System.out.println(new App().f4());
+    System.out.println(new App().FbCounter(12));
   }
 }
